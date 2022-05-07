@@ -191,6 +191,7 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  border-color: transparent;
   color: var(--white-color);
   transition: background-color var(--hover-efect);
 }
@@ -258,13 +259,13 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
   left: 0;
   bottom: 0;
-  text-align: center;
-  padding: 27px 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .works-box-title {
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -567,6 +568,7 @@ img {
   transition: transform var(--hover-efect);
 }
 .modal-close-btn {
+  cursor: pointer;
   border: transparent;
   background: var(--white-color);
 }
